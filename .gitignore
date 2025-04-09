@@ -1,0 +1,7 @@
+.history/
+terraform/terraform.tfstate
+terraform/terraform.tfstate.backup
+terraform/.terraform/
+kubeconfig-blue-green.yaml
+dev/*
+nodejs/app/node_modules/*

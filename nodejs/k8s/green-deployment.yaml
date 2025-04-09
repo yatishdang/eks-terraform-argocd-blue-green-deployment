@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nodejs-green
+  namespace: app
+  labels:
+    app: nodejs
+    version: green
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: nodejs
+      version: green
+  template:
+    metadata:
+      labels:
+        app: nodejs
+        version: green
+    spec:
+      containers:
+        - name: nodejs-app
+          image: yatishdang/nodejs-blue-green:green
+          ports:
+            - containerPort: 3000
