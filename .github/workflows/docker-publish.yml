@@ -24,4 +24,4 @@ jobs:
       - name: Build and push Docker image
         run: |
           docker build -t yatishdang/nodejs-blue-green:latest ./nodejs/app
-          docker push yatishdang/nodejs-blue-green:latest
+          docker push yatishdang/nodejs-blue-green:green

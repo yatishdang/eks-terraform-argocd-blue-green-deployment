@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/yatishdang/eks-terraform-argocd-blue-green-deployment
     targetRevision: main
-    path: nodejs/k8s
+    path: nodejs/k8s/release
   destination:
     server: https://kubernetes.default.svc
     namespace: app
