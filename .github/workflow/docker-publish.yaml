@@ -3,7 +3,7 @@ name: Build & Push Node.js Image
 
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
 
 jobs:
   docker-build:
