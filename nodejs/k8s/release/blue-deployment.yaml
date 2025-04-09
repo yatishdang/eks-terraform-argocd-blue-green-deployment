@@ -17,10 +17,10 @@ spec:
     metadata:
       labels:
         app: nodejs
-        version: latest
+        version: blue
     spec:
       containers:
         - name: nodejs-app
-          image: "yatishdang/nodejs-blue-green:blue"
+          image: "yatishdang/nodejs-blue-green:latest"
           ports:
             - containerPort: 3000
