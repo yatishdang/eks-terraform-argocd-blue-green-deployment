@@ -23,7 +23,7 @@ server:
       alb.ingress.kubernetes.io/load-balancer-attributes: routing.http.drop_invalid_header_fields.enabled=true
       alb.ingress.kubernetes.io/target-group-attributes: stickiness.enabled=true,stickiness.lb_cookie.duration_seconds=600
       alb.ingress.kubernetes.io/group.name: shared
-      alb.ingress.kubernetes.io/priority: 200
+      alb.ingress.kubernetes.io/priority: "100"
     paths:
       - /argocd
     pathType: Prefix
