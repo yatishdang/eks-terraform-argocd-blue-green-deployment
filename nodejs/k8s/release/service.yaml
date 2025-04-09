@@ -8,7 +8,7 @@ metadata:
 spec:
   selector:
     app: nodejs
-    version: green
+    version: blue
   ports:
     - protocol: TCP
       port: 3000
