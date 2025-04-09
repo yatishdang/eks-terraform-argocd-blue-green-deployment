@@ -21,6 +21,6 @@ spec:
     spec:
       containers:
         - name: nodejs-app
-          image: "yatishdang/nodejs-blue-green:latest"
+          image: "yatishdang/nodejs-blue-green:v2"
           ports:
             - containerPort: 3000
