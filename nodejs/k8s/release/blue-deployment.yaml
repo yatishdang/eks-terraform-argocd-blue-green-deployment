@@ -17,7 +17,7 @@ spec:
     metadata:
       labels:
         app: nodejs
-        version: blue
+        version: latest
     spec:
       containers:
         - name: nodejs-app
