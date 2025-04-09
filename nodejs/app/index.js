@@ -6,10 +6,10 @@ app.get('/', (req, res) => {
   res.send(`
     <html>
       <head>
-        <title>Node.js Pink</title>
+        <title>Node.js cyan</title>
         <style>
           body {
-            background-color: pink;
+            background-color: cyan;
             color: white;
             font-family: sans-serif;
             text-align: center;
@@ -18,7 +18,7 @@ app.get('/', (req, res) => {
         </style>
       </head>
       <body>
-        <h1>Hello from Pink Version!</h1>
+        <h1>Hello from Cyan Version!</h1>
       </body>
     </html>
   `);
